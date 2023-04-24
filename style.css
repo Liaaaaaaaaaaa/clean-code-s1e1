@@ -5,7 +5,7 @@
   font-family: Lato, sans-serif;
 }
 
-.img-title {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -22,13 +22,13 @@
 
 @media (max-width:768px) {
 
-  .img-title {
+  .header {
     text-align: center;
   }
 
 }
 
-.main-container {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -40,7 +40,7 @@
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.new-task__input {
   display: flex;
 }
 
@@ -103,7 +103,7 @@ button {
 }
 
 /* New Task */
-.label-new-task {
+.new-task__label{
   display: block;
   margin: 0 0 20px;
 }
