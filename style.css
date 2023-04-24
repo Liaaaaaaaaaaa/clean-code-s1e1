@@ -22,9 +22,11 @@
 }
 
 @media (max-width:768px) {
+
   .img-title {
     text-align: center;
   }
+  
 }
 
 .main-container {
